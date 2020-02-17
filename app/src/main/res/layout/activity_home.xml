@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+  xmlns:tools="http://schemas.android.com/tools"
+  android:layout_width="match_parent"
+  android:layout_height="match_parent"
+  tools:context=".HomeActivity">
+  <LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical">
+    <Button
+      android:id="@+id/btn_add_homeActivity"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:layout_margin="@dimen/_10sdp"
+      android:text="@string/add_user_details"
+      android:textColor="@color/design_default_color_primary_variant"
+      android:textSize="@dimen/_15sdp"
+      android:textStyle="bold" />
+
+    <Button
+      android:id="@+id/btn_edit_homeActivity"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:layout_margin="@dimen/_10sdp"
+      android:text="EDIT USER DETAILS"
+      android:textColor="@color/design_default_color_primary_variant"
+      android:textSize="@dimen/_15sdp"
+
+      android:textStyle="bold" />
+    <Button
+      android:id="@+id/btn_delete_homeActivity"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:layout_margin="@dimen/_10sdp"
+      android:text="DELETE USER DETAILS"
+      android:textColor="@color/design_default_color_primary_variant"
+      android:textSize="@dimen/_15sdp"
+      android:textStyle="bold" />
+    <Button
+      android:id="@+id/btn_view_homeActivity"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:layout_margin="@dimen/_10sdp"
+      android:text="VIEW USER DETAILS"
+      android:textColor="@color/design_default_color_primary_variant"
+      android:textSize="@dimen/_15sdp"
+      android:textStyle="bold" />
+
+  </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,9 @@
+<resources>
+  <string name="app_name">demo_app</string>
+  <string name="personal_info">Personal Info</string>
+  <string name="enter_first_name">Enter first name</string>
+  <string name="enter_last_name">Enter last name</string>
+  <string name="select_date_of_birth">Select date of birth</string>
+  <string name="enter_mobile_number">Enter mobile number</string>
+  <string name="add_user_details">Add User Details</string>
+</resources>
