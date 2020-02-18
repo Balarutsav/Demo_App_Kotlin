@@ -35,10 +35,13 @@ class HomeActivity : AppCompatActivity(), View.OnClickListener {
     override fun onClick(v: View?) {
             when(v?.id){
                 R.id.btn_add_homeActivity->{
-                    var intent=Intent(applicationContext,MainActivity::class.java)
+                    val intent=Intent(applicationContext,MainActivity::class.java)
                     startActivity(intent)
                 }
-
+                R.id.btn_view_homeActivity->{
+                    val intent =Intent(applicationContext,ViewUsers::class.java)
+                    startActivity(intent)
+                }
             }
     }
 }

@@ -6,4 +6,6 @@
   <string name="select_date_of_birth">Select date of birth</string>
   <string name="enter_mobile_number">Enter mobile number</string>
   <string name="add_user_details">Add User Details</string>
+  <string name="user_name">user name :</string>
+  <string name="mobile_number">mobile number :</string>
 </resources>
